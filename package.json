@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"build": "node index.js",
+		"posthtml": "posthtml -o output.html -i index.html -c config.json"
+	},
+	"devDependencies": {
+		"posthtml": "^0.15.1"
+	},
+	"dependencies": {
+		"posthtml-cli": "^0.9.1"
+	}
+}
